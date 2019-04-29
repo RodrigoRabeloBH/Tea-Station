@@ -11,7 +11,7 @@
 <body>
     <!---Header-->
     <header class="header" id="home">
-        <span class="hamburguer" onclick="menuOpen()">
+        <span class="hamburguer">
             <i class="fas fa-bars fa-2x"></i>
         </span>
         <nav class="navbar">
@@ -192,28 +192,28 @@
           <!-- end of contact item -->
         </article>
         <article class="contact-form">
-          <form
-            
-            
-            class="form-group"
-          >
+          <form class="form-group">          
+          
             <input
               type="text"
               name="name"
               placeholder="name"
               class="form-control"
+              required
             />
             <input
               type="email"
               name="email"
               placeholder="email"
               class="form-control"
+              required
             />
             <textarea
               name="message"
               placeholder="message"
               class="form-control"
               rows="5"
+              required
             ></textarea>
             <button class="main-btn">send</button>
           </form>
